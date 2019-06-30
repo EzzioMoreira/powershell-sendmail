@@ -1,1 +1,1 @@
-# powershell-sendmail
+# Powershell Script Sen-MailMessage
