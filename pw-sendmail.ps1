@@ -1,16 +1,16 @@
 #=========================send e-mail==============================#
-$SMTPServer = "mail.locfama.com.br"
+$SMTPServer = "mail.domain.com"
 $SMTPPort = "587"
-$Username = "ti@locfama.com.br" 
-$Password = "Locf@m@2022"
+$Username = "email@domain.com" 
+$Password = "password"
 #==================================================================#
 
 #=======================destination================================#
-$to = "enzziom@gmail.com" 
-$attachment = "D:\destino\log\$data.txt"
-$subject = "Bakcup Cbirdex" 
+$to = "email@domain.com" 
+$attachment = "dir\arq.txt"
+$subject = "Test email" 
 $body = @"
-<p>Here is a message by Ezzio Moreira <strong>HTML formatted</strong>.</p>
+<p>Here is a message by <strong>HTML formatted</strong>.</p>
 <p>From your friendly neighborhood IT guy</p>
 "@
 
